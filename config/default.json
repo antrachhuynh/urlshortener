@@ -1,5 +1,5 @@
 {
     "mongoUri":"mongodb+srv://gracehuynh:trach123@cluster0.lghhr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-    "baseUrl":"http://locahost:3000"
+    "baseUrl":"https://zmb.ee"
 
 }
