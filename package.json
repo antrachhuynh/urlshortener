@@ -18,7 +18,6 @@
   "dependencies": {
     "config": "^3.3.7",
     "express": "^4.18.1",
-    "helmet": "^5.0.2",
     "mongoose": "^6.3.3",
     "shortid": "^2.2.16",
     "valid-url": "^1.0.9"

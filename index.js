@@ -1,6 +1,5 @@
 const express = require('express');
 const connectDb = require('./config/database');
-const helmet = require('helmet');
 const app = express();
 
 
@@ -8,7 +7,7 @@ const app = express();
 
 connectDb();
 
-app.use(helmet(express.json({extended: false})))
+app.use(express.json({extended: false}))
 
 
 // Routes
