@@ -1,6 +1,6 @@
 const express = require('express');
 const connectDb = require('./config/database');
-
+const helmet = require('helmet');
 const app = express();
 
 
@@ -8,13 +8,13 @@ const app = express();
 
 connectDb();
 
-app.use(express.json({extended: false}))
+app.use(helmet(express.json({extended: false})))
 
 
 // Routes
 
-app.use('/', require('./routes/index'));
-app.use('/api/url', require('./routes/url'));
+app.use(('/', require('./routes/index')));
+app.use(('/api/url', require('./routes/url')));
 
 
 const PORT = 3000;
