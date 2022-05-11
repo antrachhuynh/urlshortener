@@ -12,8 +12,8 @@ app.use(express.json({extended: false}))
 
 // Routes
 
-app.use(('/', require('./routes/index')));
-app.use(('/api/url', require('./routes/url')));
+app.use('/', require('./routes/index'));
+app.use('/api/url/', require('./routes/url'));
 
 
 const PORT = 3000;
