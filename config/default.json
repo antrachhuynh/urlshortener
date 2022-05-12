@@ -1,5 +1,6 @@
 {
     "mongoUri":"mongodb+srv://gracehuynh:trach123@cluster0.lghhr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-    "baseUrl":"https://zmb.ee"
+    "baseUrl":"https://zmb.ee",
+    "mainUrl":"https://web.zmb.ee"
 
 }
